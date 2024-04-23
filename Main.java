@@ -32,8 +32,7 @@ public class Main {
 		System.out.println("Buscando:");
 		arvore.Buscar(2);
 		arvore.GerarArquivoDot("/Users/T-Gamer/eclipse-workspace/Arvore/src/br/unisinos/arvoreBin.dot");
-		
-		System.getProperty("user.dir");
+	
 	}
 
 }
