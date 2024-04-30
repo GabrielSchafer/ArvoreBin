@@ -80,8 +80,8 @@ public class Arvore{
 	public void PosOrdem(Nodo atual) {
 
 		if(atual != null){
-			PosOrdem(atual.getDir());
 			PosOrdem(atual.getEsq());
+			PosOrdem(atual.getDir());
 			System.out.println(atual.getInfo());
 
 		}
